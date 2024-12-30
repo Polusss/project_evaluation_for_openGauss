@@ -11,7 +11,7 @@ public class DatabaseConcurrencyTest {
 
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
     private static final String USER = "postgres";
-    private static final String PASS = "Ymx20041212!!!";
+    private static final String PASS = "******";
     private static final String QUERY = "SELECT 1"; // 一个简单的查询
     private static final int CONCURRENCY_LEVEL = 100; // 并发线程数
     private static final int QUERIES_PER_THREAD = 1000; // 每个线程执行的查询次数
